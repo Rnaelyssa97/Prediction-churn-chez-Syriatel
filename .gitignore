@@ -1,17 +1,55 @@
+# Fichiers Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+
+# Notebooks checkpoints
 .ipynb_checkpoints/
-*.pbix~*
-*.log
-*.bak
-*.tmp
-.DS_Store
-Thumbs.db
-*.csv
-*.xlsx
+
+# Environnements
 .env
-.venv
+.venv/
+env/
+venv/
 *.env
+
+# Fichiers de configuration IDE
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Données
+*.csv
+*.xls
+*.xlsx
+*.json
+
+# Résultats et sorties
+*.log
+*.out
+*.h5
+*.pkl
+*.joblib
+*.model
+*.sav
+
+# Images et graphiques générés
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Export HTML/PDF de notebooks
+*.html
 *.pdf
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
